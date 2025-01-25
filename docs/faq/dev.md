@@ -85,7 +85,7 @@ Creating the image of sd card:
 * `chmod +x ./pishrink.sh | sudo ./pishrink.sh ./raspiblitz.img`
 * `gzip -c ./raspiblitz.img > ./raspiblitz-min/fat-vX.X.X-YEAR-MONTH-DAY.img.gz`
 * `shasum -a 256 ./raspiblitz-min/fat-vX.X.X-YEAR-MONTH-DAY.img.gz > ./raspiblitz-min/fat-vX.X.X-YEAR-MONTH-DAY.img.gz.sha`
-* make analog copy/note of checksum 
+* Make analog copy/note of checksum 
 * Sign with `gpg --output raspiblitz-min/fat-vX.X.X-YEAR-MONTH-DAY.img.gz.sig --detach-sign raspiblitz-min/fat-vX.X.X-YEAR-MONTH-DAY.img.gz`
 
 Prepare template for subversion update later:
